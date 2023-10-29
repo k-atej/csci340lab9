@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/katejackson/Desktop/HendrixCollege/HendrixCollege.csproj": {}
+    "/Users/katejackson/Documents/csci340lab9/HendrixCollege/HendrixCollege.csproj": {}
   },
   "projects": {
-    "/Users/katejackson/Desktop/HendrixCollege/HendrixCollege.csproj": {
+    "/Users/katejackson/Documents/csci340lab9/HendrixCollege/HendrixCollege.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/katejackson/Desktop/HendrixCollege/HendrixCollege.csproj",
+        "projectUniqueName": "/Users/katejackson/Documents/csci340lab9/HendrixCollege/HendrixCollege.csproj",
         "projectName": "HendrixCollege",
-        "projectPath": "/Users/katejackson/Desktop/HendrixCollege/HendrixCollege.csproj",
+        "projectPath": "/Users/katejackson/Documents/csci340lab9/HendrixCollege/HendrixCollege.csproj",
         "packagesPath": "/Users/katejackson/.nuget/packages/",
-        "outputPath": "/Users/katejackson/Desktop/HendrixCollege/obj/",
+        "outputPath": "/Users/katejackson/Documents/csci340lab9/HendrixCollege/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/katejackson/.nuget/NuGet/NuGet.Config"

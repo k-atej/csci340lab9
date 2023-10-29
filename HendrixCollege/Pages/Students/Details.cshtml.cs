@@ -22,22 +22,22 @@ namespace HendrixCollege.Pages.Students
       public Student Student { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
-        {
-            if (id == null || _context.Students == null)
-            {
-                return NotFound();
-            }
-
-            var student = await _context.Students.FirstOrDefaultAsync(m => m.ID == id);
-            if (student == null)
-            {
-                return NotFound();
-            }
-            else 
-            {
-                Student = student;
-            }
-            return Page();
-        }
+{
+    if (id == null)
+    {
+        return NotFound();
     }
+
+    Student = await _context.Students
+        .Include(s => s.Enrollments)
+        .ThenInclude(e => e.Course)
+        .AsNoTracking()
+        .FirstOrDefaultAsync(m => m.ID == id);
+
+    if (Student == null)
+    {
+        return NotFound();
+    }
+    return Page();
 }
+    }}
